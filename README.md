@@ -1,3 +1,7 @@
+## REST API table
+
+
+
 URL / ENDPOINT    |    VERB    |    DESCRIPTION   
 ----------------- | ---------- | -------------- 
 /auth/login       |    POST    | Generate token
