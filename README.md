@@ -1,24 +1,8 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+URL / ENDPOINT    |    VERB    |    DESCRIPTION   
+----------------- | ---------- | -------------- 
+/auth/login       |    POST    | Generate token
+/users            |    POST    | Create user      
+/users            |    GET     | Return all users
+/users/{username} |    GET     | Return user      
+/users/{username} |    PUT     | Update user      
+/users/{username} |   DELETE   | Destroy user     
